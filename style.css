@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    font-family: Arial;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+
+header {
+    background: #90D7FF;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 5rem;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+section {
+    border: 1px solid red;
+    height: calc(100vh - 5rem);
+}
+
+#listas {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tabela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
